@@ -5,7 +5,7 @@ public class Main {
     public int lowCount = 0;
     public int mediumCount = 0;
     public int highCount = 0;
-  };
+  }
 
   static CountsByUsage countBatteriesByUsage(int[] cycles) {
     CountsByUsage counts = new CountsByUsage();
