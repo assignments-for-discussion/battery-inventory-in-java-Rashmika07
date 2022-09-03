@@ -5,23 +5,23 @@ public class Main {
     public int lowCount = 0;
     public int mediumCount = 0;
     public int highCount = 0;
-  }
+  };
 
   static CountsByUsage countBatteriesByUsage(int[] cycles) {
     CountsByUsage counts = new CountsByUsage();
     
     for(int i=0;i<cycles.length;i++){
-      if(cycles[i]<400){
+      if(cycles[i]<400)
            counts.lowCount++;
-      }
-      else if(cycles[i]>=400 && cycles[i]=<919)
-{
+      
+      else if(cycles[i]>=400 && cycles[i]<919)
+
         counts.mediumCount++;
-      }
+      
       else if(cycles[i]>=920)
-      {
+      
         counts.highCount++;
-      }
+      
     }
         
        
